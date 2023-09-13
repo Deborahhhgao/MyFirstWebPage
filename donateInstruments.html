@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Instruments</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="instruments-donate-page">
+    
+    <nav class="main-menu">
+
+        <a href="index.html">
+            <img id="logo" src="images/logo.png" alt="logo">
+        </a>
+
+        <ul class="nav-menu active">
+
+            <li class="nav-item dropdown nav-donate top-line">
+                <a class="nav-button" href="donate.html">DONATE</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="donateMoney.html">Donate Moeny</a>
+                    <a class="dropdown-item" href="donateInstruments.html">Donate Instruments</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item dropdown"> 
+                <a class="nav-button" href="programs.html">PROGRAMS</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="programs.html#Asian-programs">Asia</a>
+                    <a class="dropdown-item" href="programs.html#African-programs">Africa</a>
+                    <a class="dropdown-item" href="programs.html#American-programs">America</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-button" href="#">ABOUT US</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="ourTeam.html">OUR TEAM</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="index.html">HOME</a>
+            </li>
+            
+        </ul>
+
+        <div class="hamburger-btn active"><span></span></div>
+
+    </nav>
+
+    <main>
+        <header class="page-header">
+
+            <h1><br><br><br><br>DONATE INSTRUMENTS</h1>
+    
+        </header>
+
+        <div class="instruments-donate-section" id="instruments-donate-section" name="instruments-donate-section">
+
+            <div class="instruments-donate-left">
+
+                <div class="inputbox">
+
+                    <span>Instrument(s) To Donate</span><br>
+                    <input type="text" name="instruments-to-donate" class="instruments-to-donate" placeholder="Guitar">
+
+                </div>
+
+                <img src="images/instruments-donate.png" alt="children-playing-instruments">
+
+            </div>
+
+            <div class="instruments-donate-right">
+
+                <form action="">
+
+                    <div class="inputbox">
+                        <span>Name</span>
+                        <input type="text" class="instruments-holder-name">
+                    </div>
+
+                    <div class="inputbox">
+                        <span>Email Address</span>
+                        <input type="email" class="instruments-holder-email">
+                    </div>
+
+                    <div class="inputbox">
+                        <span>Phone Number</span>
+                        <input type="text" class="instruments-holder-phone">
+                    </div>
+
+                    <div class="inputbox">
+                        <span>Address Message</span>
+                        <input type="text" class="instruments-holder-address">
+                    </div>
+
+                    <div class="inputbox">
+                        <span>Date To Pick</span>
+                        <input type="date" class="instruments-pick-day" placeholder="dd/mm/yyyy">
+                    </div>
+
+                    <div class="flexbox">
+
+                        <div class="inputbox">
+                            <span>Country</span>
+                            <select name="" id="" class="country-select">
+                                <option value="country" selected disabled>country</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Australia">Australia</option>
+                                <option value="china">China</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="instruments-buttons">
+
+                        <input type="reset" value="cancel" class="clear-btn">
+
+                        <input type="submit" value="submit" class="submit-btn" onclick="instrumentSaveprompt()">
+
+                    </div>
+
+                </form>
+    
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="page-footer">
+
+        <div class="page-footer-section">
+
+            <div class="footer-left">
+
+                <a href="index.html">
+                 <img class="footer-logo" src="images/footerLogo.png" alt="footerLogo">
+                </a>
+     
+                <p class="footer-links">
+                 <a href="index.html">Home</a>|
+                 <a href="ourTeam.html">About Us</a>|
+                 <a href="programs.html">Programs</a>|
+                 <a href="events.html">Events</a>|
+                 <a href="contact.html">Contact Us</a>|
+                 <a href="donate.html">Donate</a>
+                </p>
+     
+                <p class="footer-about">
+                 © 2023 Music Can Change Donor Organization.
+                </p>
+     
+             </div>
+     
+             <div class="footer-center">
+     
+                     <div>
+                         <p><span><i class="fa fa-map-marker center-icon"></i></span>
+                             222 - Roma Street, 2222, Merivale, Australia - 4000
+                         </p>
+                     </div>
+     
+                     <div>
+                         <p><span><i class="fa fa-phone center-icon"></i></span>+01 23456789</p>
+                     </div>
+     
+                     <div>
+                         <p><span><i class="fa fa-envelope center-icon"></i></span><a href="mailto:wenjing.gao@uqconnect.com">wenjing.gao@uqconnect.com</a></p>
+                     </div>
+     
+             </div>
+     
+             <div class="footer-right">
+     
+                 <div class="footer-slogan">
+                     <p>Light up the world<br>with your love</p>
+                 </div>
+     
+                 <div class="footer-icons">
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-youtube"></i></a>
+                 </div>
+     
+             </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

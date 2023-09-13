@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Money</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="money-donate-page">
+    
+    <nav class="main-menu">
+
+        <a href="index.html">
+            <img id="logo" src="images/logo.png" alt="logo">
+        </a>
+
+        <ul class="nav-menu active">
+
+            <li class="nav-item dropdown nav-donate top-line">
+                <a class="nav-button" href="donate.html">DONATE</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="donateMoney.html">Donate Moeny</a>
+                    <a class="dropdown-item" href="donateInstruments.html">Donate Instruments</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item dropdown"> 
+                <a class="nav-button" href="programs.html">PROGRAMS</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="programs.html#Asian-programs">Asia</a>
+                    <a class="dropdown-item" href="programs.html#African-programs">Africa</a>
+                    <a class="dropdown-item" href="programs.html#American-programs">America</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-button" href="#">ABOUT US</a>
+                <ul class="dropdown-menu">
+                    <a class="dropdown-item" href="ourTeam.html">OUR TEAM</a>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="index.html">HOME</a>
+            </li>
+            
+        </ul>
+
+        <div class="hamburger-btn active"><span></span></div>
+
+    </nav>
+
+    <main>
+        <header class="page-header">
+
+            <h1><br><br><br><br>DONATE MOENY</h1>
+    
+        </header>
+
+        <div class="money-donate-section">
+
+
+            <div class="money-donate-left">
+
+                <h3>Create opportunities for children to thrive in 2023!</h3>
+
+                <form action="">
+                    <div class="inputbox">
+                        <input type="radio" name="donate-frequency" value="once" checked>
+                        <span>Give Once</span>
+                    </div>
+                   <div class="inputbox">
+                        <input type="radio" name="donate-frequency" value="monthly">
+                        <span>Give Monthly</span>
+                   </div>
+
+                   <div class="inputbox">
+                        <span>The money you want to donate:</span>
+                        <input type="text" name="moneny-to-donate" placeholder="20$" class="money-to-donate">
+                   </div>
+                
+                </form>
+
+            </div>
+            
+            <!--I got the follow code online to make the flip bank card.-->
+            <div class="money-donate-right">
+
+                <div class="moeny-card-container">
+
+                    <div class="card-front">
+
+                        <div class="money-image">
+
+                            <img src="images/chip.png" alt="chip-logo">
+                            <img src="images/visa.png" alt="visa-logo">
+
+                        </div>
+
+                        <div class="money-card-number-box">
+                            ################
+                        </div>
+
+                        <div class="flexbox">
+
+                            <div class="box">
+                                <span>card holder</span>
+                                <div class="card-holer-name">full name</div>
+                            </div>
+
+                            <div class="box">
+                                <span>expires</span>
+                                <div class="expiration">
+                                    <span class="exp-month">mm</span>
+                                    <span class="exp-year">yy</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card-back">
+
+                        <div class="stripe"></div>
+                        <div class="box">
+                            <span>cvv</span>
+                            <div class="cvv-box"></div>
+                            <img src="images/visa.png" alt="visa-logo">
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+                <form action="" id="money-donate-right" name="money-donate-right">
+                    <div class="inputbox">
+                        <span>card number</span>
+                        <input type="text" maxlength="16" class="card-number-input">
+                    </div>
+                    <div class="inputbox">
+                        <span>card holder</span>
+                        <input type="text" class="card-holder-input">
+                    </div>
+                    <div class="flexbox">
+                        <div class="inputbox">
+                            <span>expiration mm</span>
+                            <select name="" id="" class="month-input">
+                                <option value="month" selected disabled>month</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+
+                        </div>
+                        <div class="inputbox">
+                            <span>expiration yy</span>
+                            <select name="" id="" class="year-input">
+                                <option value="year" selected disabled>year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                                <option value="2034">2034</option>
+                            </select>
+
+                        </div>
+
+                        <div class="inputbox">
+                            <span>cvv</span>
+                            <input type="text" maxlength="4" class="cvv-input">
+                        </div>
+
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="page-footer">
+
+        <div class="page-footer-section">
+
+            <div class="footer-left">
+
+                <a href="index.html">
+                 <img class="footer-logo" src="images/footerLogo.png" alt="footerLogo">
+                </a>
+     
+                <p class="footer-links">
+                 <a href="index.html">Home</a>|
+                 <a href="ourTeam.html">About Us</a>|
+                 <a href="programs.html">Programs</a>|
+                 <a href="events.html">Events</a>|
+                 <a href="contact.html">Contact Us</a>|
+                 <a href="donate.html">Donate</a>
+                </p>
+     
+                <p class="footer-about">
+                 © 2023 Music Can Change Donor Organization.
+                </p>
+     
+             </div>
+     
+             <div class="footer-center">
+     
+                     <div>
+                         <p><span><i class="fa fa-map-marker center-icon"></i></span>
+                             222 - Roma Street, 2222, Merivale, Australia - 4000
+                         </p>
+                     </div>
+     
+                     <div>
+                         <p><span><i class="fa fa-phone center-icon"></i></span>+01 23456789</p>
+                     </div>
+     
+                     <div>
+                         <p><span><i class="fa fa-envelope center-icon"></i></span><a href="mailto:wenjing.gao@uqconnect.com">wenjing.gao@uqconnect.com</a></p>
+                     </div>
+     
+             </div>
+     
+             <div class="footer-right">
+     
+                 <div class="footer-slogan">
+                     <p>Light up the world<br>with your love</p>
+                 </div>
+     
+                 <div class="footer-icons">
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-youtube"></i></a>
+                 </div>
+     
+             </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
